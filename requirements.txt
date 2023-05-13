@@ -4,17 +4,11 @@ npm i antd
 npm i bootstrap
 npm i react-bootstrap
 npm i axios
-npm install react-pdf
 #server
 npm init -y
 npm i
-npm i mysql
-npm i mongodb
-npm i cors
-npm i express
-npm i axios
-
-#######################
-sudo systemctl start postgresql
-sudo systemctl enable postgresql
-sudo systemctl status postgresql
+npm i mysql jsonwebtoken cors express body-parser
+npm i mongodb uuid
+npm i mongodb natural
+npm i --save mongoose-fuzzy-search
+npm i fast-levenshtein
