@@ -1,0 +1,5 @@
+CREATE KEYSPACE web WITH replication = {'class': 'SimpleStrategy', 'replication_factor': '1'};
+
+CREATE TABLE tra (    tra_id uuid PRIMARY KEY,    book_id text,    customer_id int,    return_date timestamp)
+
+CREATE TABLE muon (    muon_id uuid PRIMARY KEY,    book_id text,    customer_id int,    rental_date timestamp);
