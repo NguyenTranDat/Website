@@ -13,6 +13,7 @@ Library Management Website (INT2208 3)
 ## Technologies
 Project is created with:
 * Axios version: 1.4.0
+* ExpressJS version: 4.18.2
 * Bootstrap version: 5.2.3
 * ReactJS version: 18.2.0
 * Bcrypt version: 5.1.0
@@ -29,6 +30,7 @@ To run this project, do these steps:
 2. In Mysql, import 'web_schema.sql' and 'web_data.sql'.
 
 In MongoDB, import 'data.json'.
+
 In Cassandra, after connecting to database like this :
 ```
 $cqlsh
