@@ -21,6 +21,10 @@ Project is created with:
 ## Setup
 To run this project, install:
 
+Run cmd in the path of project's folder and run :
+```
+npx create-react-app client
+```
 ```
 $ cd ../lorem
 $ npm install
