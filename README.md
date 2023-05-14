@@ -4,7 +4,11 @@
 * [Setup](#setup)
 
 ## General info
-Library Management Website 
+Library Management Website (INT2208 3)
+
+* Nguyễn Tuấn Anh - 21020276
+* Nguyễn Khánh Duy - 21020294 
+* Nguyễn Trần Đạt - 21020011
 	
 ## Technologies
 Project is created with:
