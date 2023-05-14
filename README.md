@@ -1,10 +1,10 @@
-## Website Quản lí thư viện
+## Library Management Website 
 * [General info](#general-info)
 * [Technologies](#technologies)
 * [Setup](#setup)
 
-## Thông tin chung
-Với sự phát triển không ngừng của công nghệ thông tin, việc xây dựng một trang web quản lý thư viện trở nên dễ dàng hơn bao giờ hết. Nếu được sử dụng đúng cách và phát triển thường xuyên, trang web quản lý thư viện sẽ giúp cho việc quản lý các tài liệu trở nên dễ dàng và thuận tiện hơn, từ đó giúp nâng cao chất lượng dịch vụ của các tổ chức và mang lại sự hài lòng cho người dùng. 
+## General info
+Library Management Website 
 	
 ## Technologies
 Project is created with:
@@ -19,7 +19,7 @@ Project is created with:
 * NodeJS: 18.16.0	
 	
 ## Setup
-To run this project, install it locally using npm:
+To run this project, install:
 
 ```
 $ cd ../lorem
