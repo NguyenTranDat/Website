@@ -19,14 +19,58 @@ Project is created with:
 * NodeJS: 18.16.0	
 	
 ## Setup
-To run this project, install:
+To run this project, do these steps:
+1. Install Mysql workbench, MongoDB, Cassandra.
+  Cassandra is difficult to install so you can watch this video https://www.youtube.com/watch?v=hJxlkHafYsQ
+2. In Mysql, import 'web_schema.sql' and 'web_data.sql'.
 
-Run cmd in the path of project's folder and run :
+In MongoDB, import 'data.json'.
+In Cassandra, after connecting to database like this :
+```
+$cqlsh
+```
+Paste these queries in 'CassandraTable.txt'
+
+4. Run cmd in the path of project's folder and run :
 ```
 npx create-react-app client
 ```
+
+4. Go to client and install:
 ```
-$ cd ../lorem
-$ npm install
-$ npm start
+$cd client
+$npm i react-router-dom
+$npm i antd
+$npm i bootstrap
+$npm i react-bootstrap
+$npm i axios
+```
+
+5. Go to server and install:
+```
+$cd ..
+$cd server
+$npm init -y
+$npm i
+$npm i mysql jsonwebtoken cors express body-parser
+$npm i mongodb uuid
+$npm i mongodb natural
+$npm i --save mongoose-fuzzy-search
+$npm i fast-levenshtein
+$npm i mysql
+$npm i mongodb
+$npm i cassandra-driver
+$npm i bycrypt
+```
+
+6. In client, run:
+
+```
+npm start
+```
+
+7. In server, run:
+
+```
+node index.js
 ```
