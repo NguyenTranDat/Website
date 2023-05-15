@@ -37,7 +37,7 @@ $cqlsh
 ```
 Paste these queries in 'CassandraTable.txt'
 
-4. Run cmd in the path of project's folder and run :
+3. Run cmd in the path of project's folder and run :
 ```
 npx create-react-app client
 ```
